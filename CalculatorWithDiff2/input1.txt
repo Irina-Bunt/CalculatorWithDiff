@@ -1,0 +1,2 @@
+Expression: 20*x*x*xa-12*xa*x*xa
+Operations: Diff(x), Simp(), Diff(xa), Simp(), Calc(x,2;xa,4)

@@ -1,0 +1,6 @@
+Expression: 20*x*x*xa-12*xa*x*xa
+Diff(x): ((0*x*x*xa+20*(1*x*xa+x*(1*xa+x*0)))-(0*xa*x*xa+12*(0*x*xa+xa*(1*xa+x*0))))
+Simp(): (20*2*x*xa-12*xa*xa)
+Diff(xa): ((0*2*x*xa+20*(0*x*xa+2*(0*xa+x*1)))-(0*xa*xa+12*(1*xa+xa*1)))
+Simp(): (20*2*x-12*2*xa)
+Calc(x,2;xa,4): -16
